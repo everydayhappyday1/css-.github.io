@@ -1,0 +1,19 @@
+/* 모든 파일에 공통 적용할 css */
+* {margin: 0; padding: 0; box-sizing: border-box;}
+body, html {
+    font-family: 'Merriweather',serif;
+    width: 100%;
+    min-width: 350px; 
+}
+ul, li, ol, dd, dl {list-style: none;}
+img {max-width: 100%; height: auto;} 
+input, textarea, button, select {
+    appearance: none; 
+}
+section, article{
+    margin-top: 50px;
+}
+.img{
+    border: 0;
+}
+
